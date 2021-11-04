@@ -1,1 +1,1 @@
-A place to host my artwork.
+A place to showcase my artwork. 
