@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/thirteenaladdins/mxa.xyz.git/static/css/main.584d20b3.chunk.css",
+    "main.js": "/thirteenaladdins/mxa.xyz.git/static/js/main.de983fea.chunk.js",
+    "main.js.map": "/thirteenaladdins/mxa.xyz.git/static/js/main.de983fea.chunk.js.map",
+    "runtime-main.js": "/thirteenaladdins/mxa.xyz.git/static/js/runtime-main.0f695ef0.js",
+    "runtime-main.js.map": "/thirteenaladdins/mxa.xyz.git/static/js/runtime-main.0f695ef0.js.map",
+    "static/js/2.d3f200b5.chunk.js": "/thirteenaladdins/mxa.xyz.git/static/js/2.d3f200b5.chunk.js",
+    "static/js/2.d3f200b5.chunk.js.map": "/thirteenaladdins/mxa.xyz.git/static/js/2.d3f200b5.chunk.js.map",
+    "static/js/3.fb35929c.chunk.js": "/thirteenaladdins/mxa.xyz.git/static/js/3.fb35929c.chunk.js",
+    "static/js/3.fb35929c.chunk.js.map": "/thirteenaladdins/mxa.xyz.git/static/js/3.fb35929c.chunk.js.map",
+    "index.html": "/thirteenaladdins/mxa.xyz.git/index.html",
+    "static/css/main.584d20b3.chunk.css.map": "/thirteenaladdins/mxa.xyz.git/static/css/main.584d20b3.chunk.css.map",
+    "static/js/2.d3f200b5.chunk.js.LICENSE.txt": "/thirteenaladdins/mxa.xyz.git/static/js/2.d3f200b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f695ef0.js",
+    "static/js/2.d3f200b5.chunk.js",
+    "static/css/main.584d20b3.chunk.css",
+    "static/js/main.de983fea.chunk.js"
+  ]
+}
