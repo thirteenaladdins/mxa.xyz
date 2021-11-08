@@ -1,0 +1,27 @@
+.header {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: red; */
+  justify-content: space-between;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+/* TODO - come back and adjust the text */
+.home-icon {
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+/* .hamburger {
+  color: aliceblue;
+} */
