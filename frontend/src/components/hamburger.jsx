@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./hamburger.css";
 
-function Hamburger() {
+function Hamburger({ stateChanger, ...rest }) {
   const [isActive, setActive] = useState("false");
   const handleToggle = () => {
     setActive(!isActive);
@@ -9,7 +9,10 @@ function Hamburger() {
   return (
     <div className={"wrapper"}>
       <div
-        onClick={handleToggle}
+        onClick={() => {
+          handleToggle();
+          stateChanger(isActive ? "ShowNav" : "ShowHome");
+        }}
         className={isActive ? "icon nav-icon-5" : "icon nav-icon-5 open"}
       >
         <span></span>

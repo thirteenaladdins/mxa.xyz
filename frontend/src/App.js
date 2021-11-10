@@ -26,15 +26,16 @@ function App() {
   // default state is home
   const [displayedComponent, setComponent] = useState("ShowHome");
 
-  const showComponent = (component) => {
-    setComponent(component);
-  };
+  // const showComponent = (component) => {
+  //   setComponent(component);
+  // };
 
   return (
     <div className="App">
-      <Navbar></Navbar>
-      <button onClick={() => showComponent("ShowHome")}>ShowHome</button>
-      <button onClick={() => showComponent("ShowNav")}>ShowNav</button>
+      <Navbar toggle={setComponent}></Navbar>
+
+      {/* <button onClick={() => showComponent("ShowHome")}>ShowHome</button>
+      <button onClick={() => showComponent("ShowNav")}>ShowNav</button> */}
 
       <div className={"home"}>{components[displayedComponent]}</div>
     </div>
